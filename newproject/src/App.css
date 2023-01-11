@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.FormButtons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  justify-items: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
+@media only screen and (max-width: 390px) {
+  .container {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+  }
+  .avatarFlex {
+    flex-direction: column;
+  }
+  .tableStyle {
+    color: black;
+    margin-top: 0;
+  }
+  .nav {
+    width: 95%;
+  }
+}
